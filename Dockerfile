@@ -12,6 +12,7 @@ ENV LANG=en_US.UTF-8
 ENV LANGUAGE=en_US.UTF-8
 WORKDIR /app
 RUN gem install bundler
+ADD Gemfile /app/Gemfile
 RUN bundle config set without 'development test'
 RUN bundle install -j8
 RUN yarn
