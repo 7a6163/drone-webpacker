@@ -49,7 +49,7 @@ gem 'font-awesome-sass', '~> 5.9'
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
-gem 'kaminari', '~> 1.1', '>= 1.1.1'
+gem 'kaminari', '~> 1.2'
 
 gem 'deep_cloneable', '~> 3.0'
 
